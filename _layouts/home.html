@@ -21,13 +21,16 @@ layout: default
   <p>We propose a new transformer model for the task of unsupervised learning of skeleton motion sequences. The existing transformer model utilized for unsupervised skeleton-based action learning is learned the instantaneous velocity of each joint from adjacent frames without global motion information. Thus, the model has difficulties in learning the attention globally over whole-body motions and temporally distant joints. In addition, person-to-person interactions have not been considered in the model. To tackle the learning of whole-body motion, long-range temporal dynamics, and person-to-person interactions, we design a global and local attention mechanism, where, global body motions and local joint motions pay attention to each other. In addition, we propose a novel pretraining strategy, multi-interval pose displacement prediction, to learn both global and local attention in diverse time ranges. The proposed model successfully learns local dynamics of the joints and captures global context from the motion sequences. Our model outperforms state-of-the-art models by notable margins in the representative benchmarks.</p>
   <h2>Citation</h2>
   
+  <pre>
   @article{kim2022global,<br>
     title={Global-local Motion Transformer for Unsupervised Skeleton-based Action Learning},<br>
     author={Kim, Boeun and Chang, Hyung Jin and Kim, Jungho and Choi, Jin Young},<br>
     journal={arXiv e-prints},<br>
     pages={arXiv--2207},<br>
     year={2022}<br>
-  }<br>
+  }
+  </pre>
+    
 </body>
 
 
