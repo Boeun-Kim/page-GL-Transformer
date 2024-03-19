@@ -1,6 +1,6 @@
 navbar_entries:
   - title: paper
-    url: https://arxiv.org/abs/2207.06101
+    url: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640207.pdf
 
   - title: code
     url: https://github.com/Boeun-Kim/GL-Transformer
